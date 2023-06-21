@@ -1,7 +1,15 @@
-## project path 
+# FinEntity
+This is the official repo for the paper "FinEntity: A Dataset of Entity-level Sentiment Classification for Financial Domain."
+Please note that some hyper-parameters may affect the performance, which can vary among different tasks/environments/software/hardware/random seeds, and thus careful tunning is required. 
+
+## Instruction
+In the financial domain, conducting entity-level sentiment analysis is crucial for accurately assessing the sentiment directed toward a specific financial entity. To our knowledge, no publicly available dataset currently exists for this purpose. In this work, we introduce an entity-level sentiment classification dataset, called \textbf{FinEntity}, that annotates sentiment (positive, neutral, and negative) of individual financial entities in financial news. The dataset construction process is well-documented in the paper.
+Additionally, we benchmark several pre-trained models (BERT, FinBERT, etc.) and ChatGPT on entity-level sentiment classification and find out that fine-tuning pre-trained models outperform ChatGPT. In a case study, we demonstrate the practical utility of using FinEntity in monitoring cryptocurrency markets. 
+
+## Project Path 
 
 ```
-│  bert_crf_train.ipynb     ---BERT-CRF training  
+├─bert_crf_train.ipynb     ---BERT-CRF training  
 │  bert_softmax_train.ipynb ---BERT training  
 │  config.py                ---Model config for BERT-CRF and BERT  
 │  mic.ipynb                ---Calculate the maximum information coefficient  
@@ -77,6 +85,13 @@
 │  │  process.py  
 │  │  train.py   
 │  └─  __init__.py 
-│  
-│    
+   
 ```
+
+## Requirements
+* Linux with Python
+* Tensorflow
+* Pytorch
+* Transformers
+* Seqeval
+* Keras
