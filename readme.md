@@ -1,5 +1,5 @@
 # FinEntity
-This is the official repo for the paper "FinEntity: A Dataset of Entity-level Sentiment Classification for Financial Domain."
+This is the official repo for the paper "FinEntity: A Dataset of Entity-level Sentiment Classification for Financial Domain."  
 Please note that some hyper-parameters may affect the performance, which can vary among different tasks/environments/software/hardware/random seeds, and thus careful tunning is required. 
 
 ## Instruction
@@ -95,3 +95,5 @@ Additionally, we benchmark several pre-trained models (BERT, FinBERT, etc.) and 
 * Transformers
 * Seqeval
 * Keras
+
+  
