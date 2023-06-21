@@ -1,5 +1,5 @@
 # FinEntity
-This is the repo for the paper "FinEntity: A Dataset of Entity-level Sentiment Classification for Financial Domain."  
+
 Please note that some hyper-parameters may affect the performance, which can vary among different tasks/environments/software/hardware/random seeds, and thus careful tunning is required. 
 
 ## Instruction
