@@ -1,6 +1,6 @@
 # FinEntity
 
-Please note that some hyper-parameters may affect the performance, which can vary among different tasks/environments/software/hardware/random seeds, and thus careful tunning is required. 
+Please note that some hyper-parameters may affect the performance, which can vary among different tasks/environments/software/hardware; thus, careful tunning is required. 
 
 ## Instruction
 In the financial domain, conducting entity-level sentiment analysis is crucial for accurately assessing the sentiment directed toward a specific financial entity. To our knowledge, no publicly available dataset currently exists for this purpose. In this work, we introduce an entity-level sentiment classification dataset, called \textbf{FinEntity}, that annotates sentiment (positive, neutral, and negative) of individual financial entities in financial news. The dataset construction process is well-documented in the paper.
