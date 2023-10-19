@@ -1,9 +1,11 @@
 # FinEntity
 
+A Dataset for entity-level sentiment classification.
+
 Please note that some hyper-parameters may affect the performance, which can vary among different tasks/environments/software/hardware; thus, careful tunning is required. 
 
 ## Instruction
-In the financial domain, conducting entity-level sentiment analysis is crucial for accurately assessing the sentiment directed toward a specific financial entity. To our knowledge, no publicly available dataset currently exists for this purpose. In this work, we introduce an entity-level sentiment classification dataset, called \textbf{FinEntity}, that annotates sentiment (positive, neutral, and negative) of individual financial entities in financial news. The dataset construction process is well-documented in the paper.
+In the financial domain, conducting entity-level sentiment analysis is crucial for accurately assessing the sentiment directed toward a specific financial entity. To our knowledge, no publicly available dataset currently exists for this purpose. In this work, we introduce an entity-level sentiment classification dataset, called **FinEntity**, that annotates sentiment (positive, neutral, and negative) of individual financial entities in financial news. The dataset construction process is well-documented in the paper.
 Additionally, we benchmark several pre-trained models (BERT, FinBERT, etc.) and ChatGPT on entity-level sentiment classification and find out that fine-tuning pre-trained models outperform ChatGPT. In a case study, we demonstrate the practical utility of using FinEntity in monitoring cryptocurrency markets. 
 
 ## Project Path 
@@ -88,5 +90,5 @@ Additionally, we benchmark several pre-trained models (BERT, FinBERT, etc.) and 
    
 ```
 ## License
-FinEntity is licensed under ODC-BY.
+FinEntity is licensed under [ODC-BY](https://opendatacommons.org/licenses/by/1-0/)
   
