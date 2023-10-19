@@ -30,11 +30,7 @@ Additionally, we benchmark several pre-trained models (BERT, FinBERT, etc.) and 
 │  └─ xrp_corr.xls   
 │  
 ├─data  
-│  │  entity_sim.json       ---Data processed by Jaccord  
-│  │  FinEntity.json        ---Final data  
-│  │  open_ai.json          ---Data annotated by chatgpt  
-│  │  urop_annotation_4000_annotations.json  ---Raw data  
-│  └─ without_space.json    ---Data removed spaces  
+│  └─ FinEntity.json        ---FinEntity data  
 │                               
 ├─data_process  
 │  │  fleiss_kappa.ipynb    ---process the data with fleiss kappa
