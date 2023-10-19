@@ -87,13 +87,6 @@ Additionally, we benchmark several pre-trained models (BERT, FinBERT, etc.) and 
 │  └─  __init__.py 
    
 ```
-
-## Requirements
-* Linux with Python
-* Tensorflow
-* Pytorch
-* Transformers
-* Seqeval
-* Keras
-
+## License
+FinEntity is licensed under ODC-BY.
   
