@@ -1,6 +1,6 @@
 # FinEntity
 
-A Dataset for entity-level sentiment classification.
+A Dataset for **entity-level sentiment** classification.
 
 Please note that some hyper-parameters may affect the performance, which can vary among different tasks/environments/software/hardware; thus, careful tunning is required. 
 
