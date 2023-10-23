@@ -85,6 +85,19 @@ Additionally, we benchmark several pre-trained models (BERT, FinBERT, etc.) and 
 │  └─  __init__.py 
    
 ```
+## Citation
+
+```
+@misc{tang2023finentity,
+      title={FinEntity: Entity-level Sentiment Classification for Financial Texts}, 
+      author={Yixuan Tang and Yi Yang and Allen H Huang and Andy Tam and Justin Z Tang},
+      year={2023},
+      eprint={2310.12406},
+      archivePrefix={arXiv},
+      primaryClass={cs.CL}
+}
+```
+
 ## License
 FinEntity is licensed under [ODC-BY](https://opendatacommons.org/licenses/by/1-0/)
   
