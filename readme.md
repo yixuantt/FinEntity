@@ -88,13 +88,25 @@ Additionally, we benchmark several pre-trained models (BERT, FinBERT, etc.) and 
 ## Citation
 
 ```
-@misc{tang2023finentity,
-      title={FinEntity: Entity-level Sentiment Classification for Financial Texts}, 
-      author={Yixuan Tang and Yi Yang and Allen H Huang and Andy Tam and Justin Z Tang},
-      year={2023},
-      eprint={2310.12406},
-      archivePrefix={arXiv},
-      primaryClass={cs.CL}
+@inproceedings{tang-etal-2023-finentity,
+    title = "{F}in{E}ntity: Entity-level Sentiment Classification for Financial Texts",
+    author = "Tang, Yixuan  and
+      Yang, Yi  and
+      Huang, Allen  and
+      Tam, Andy  and
+      Tang, Justin",
+    editor = "Bouamor, Houda  and
+      Pino, Juan  and
+      Bali, Kalika",
+    booktitle = "Proceedings of the 2023 Conference on Empirical Methods in Natural Language Processing",
+    month = dec,
+    year = "2023",
+    address = "Singapore",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2023.emnlp-main.956",
+    doi = "10.18653/v1/2023.emnlp-main.956",
+    pages = "15465--15471",
+    abstract = "In the financial domain, conducting entity-level sentiment analysis is crucial for accurately assessing the sentiment directed toward a specific financial entity. To our knowledge, no publicly available dataset currently exists for this purpose. In this work, we introduce an entity-level sentiment classification dataset, called FinEntity, that annotates financial entity spans and their sentiment (positive, neutral, and negative) in financial news. We document the dataset construction process in the paper. Additionally, we benchmark several pre-trained models (BERT, FinBERT, etc.) and ChatGPT on entity-level sentiment classification. In a case study, we demonstrate the practical utility of using FinEntity in monitoring cryptocurrency markets. The data and code of FinEntity is available at https://github.com/yixuantt/FinEntity.",
 }
 ```
 
