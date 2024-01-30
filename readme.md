@@ -2,6 +2,8 @@
 
 A Dataset for **entity-level sentiment** classification.
 
+🤗 [huggingface dataloader](https://huggingface.co/datasets/yixuantt/FinEntity)
+
 Please note that some hyper-parameters may affect the performance, which can vary among different tasks/environments/software/hardware; thus, careful tunning is required. 
 
 ## Instruction
